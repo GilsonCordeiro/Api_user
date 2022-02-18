@@ -13,7 +13,7 @@ public class User {
     private String email;
     // Associação entre as duas entidades:
     @ManyToOne
-    @JoinColumn(name = "departament_id")
+    @JoinColumn(name = "department_id")
     private Department department;
 
     public User (){
